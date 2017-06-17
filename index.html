@@ -3,24 +3,26 @@
 <head>
 	<title>Meaghan Rea's Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">	
 </head>
 <main>
 	<body>
 		<div>
 			<header>
-			<h1>Meaghan Rea's Portfolio</h1>
-			<div>
-				<nav>
-					<ul id="nav-links">
-						<li><a href="#personal-statement">personal statement</a></li>
-						<li><a href="#projects">projects</a></li>
-						<li><a href="#education">education</a></li>
-						<li><a href="#skills">skills</a></li>
-					</ul>
-				</nav>
+				<h1>Meaghan Rea's Portfolio</h1>
+				<div>
+					<nav>
+						<ul id="nav-links">
+							<li><a href="#personal-statement">personal statement</a></li>
+							<li><a href="#projects">projects</a></li>
+							<li><a href="#education">education</a></li>
+							<li><a href="#skills">skills</a></li>
+						</ul>
+					</nav>
 				</div>
 			</header>
-			<div>
+			<section class="top-things">
+			<div id="my-pic">
 				<img id="Meaghan-Rea-logo" src="website-images/MeaghanRea_software_dev.jpg">
 			</div>
 			<div id="opener">
@@ -28,45 +30,64 @@
 				<h3>Glad you stopped by - check out my projects & skills below.</h3>
 				<h3>Contact info is over there >>></h3>
 			</div>
-			<div>
+			<div id="contact-me">
 				<ul>
 					<li>phone</li>
 					<li>e-mail</li>
 					<li>github</li>
 					<li>linkedin</li>
 				</ul>
-			</div>
+				</div> <!-- closes class="my-pic" -->
+			</section> <!-- closes class="top-things" -->
 			<section>
-				<h2 id="personal-statement">Personal Statement</h2>
-				<p>
-				<blockquote>
-				I'm a full stack Java developer and recently completed an intense 12-week bootcamp with We Can Code It in Columbus, OH. I’ve been a graphic designer for nearly a decade, where I worked in professional settings and also as a freelancer. I’m eager to work in a growing industry, where I can contribute to a team by building beautiful things and solving complex problems. 
-				</blockquote>
-				</p>
+				<div id="ps">
+					<h2 id="personal-statement">Personal Statement</h2>
+					<p>
+						<blockquote>
+							I'm a full stack Java developer and recently completed an intense 12-week bootcamp with We Can Code It in Columbus, OH. I’ve been a graphic designer for nearly a decade, where I worked in professional settings and also as a freelancer. I’m eager to work in a growing industry, where I can contribute to a team by building beautiful things and solving complex problems. 
+						</blockquote>
+					</p>
+				</div>
 				<h2 id="projects">Projects</h2>
-				<article>
-					<img id="fort-tell" src="website-images/fortune-teller-screenshot.jpg">
-					<br>
-					<a href="https://github.com/RainbowMoonbeams/fortune-teller">Fortune Teller</a>: the user is asked to input their name, age, birth month, and number of siblings. The program produces a fortune which changes according to the responses.
-				</article>
+				<div class="firstProjectClass">
+					<article id="firstProject">
+						<br>
+						<a href="https://github.com/RainbowMoonbeams/fortune-teller"><strong>Fortune Teller</strong></a>: the user is asked to input their name, age, birth month, and number of siblings. The program produces a fortune which changes according to the responses.
+						<br>
+						<br>
+						<img id="fort-tell" src="website-images/fortune-teller-screenshot.jpg">
+					</article>
+				</div>
 				<br>
-				<article>
-					<img id="virt-pet" src="website-images/virtual-pet-screenshot.jpg">
-					<br>
-					<a href="https://github.com/RainbowMoonbeams/virtual-pet">Virtual Pet</a>: remember Tomagochi and GigaPets? This is a very similar game! You'll interact with a pet named Albus by feeding him, watering him, and playing with him.
-				</article>
+				<div class="secondProjectClass">
+					<article id="secondProject">
+						<br>
+						<a href="https://github.com/RainbowMoonbeams/virtual-pet"><strong>Virtual Pet</strong></a>: remember Tomagochi and GigaPets? This is a very similar game! You'll interact with a pet named Albus by feeding him, watering him, and playing with him.
+						<br>
+						<br>
+						<img id="virt-pet" src="website-images/virtual-pet-screenshot.jpg">
+					</article>
+				</div>
 				<br>
-				<article>
-					<img id="vp-shelt" src="website-images/virtual-pet-shelter-screenshot.jpg">
-					<br>
-					<a href="https://github.com/RainbowMoonbeams/virtual-pet-shelter">Virtual Pet Shelter</a>: take care of multiple pets, interact witht hem by feeding them, playing with them, taking them for walks, adopting, and surrendering an animal to the shelter.
-				</article>
+				<div class="thirdProjectClass">
+					<article id="thirdProject">
+						<br>
+						<a href="https://github.com/RainbowMoonbeams/virtual-pet-shelter"><strong>Virtual Pet Shelter</strong></a>: take care of multiple pets, interact witht hem by feeding them, playing with them, taking them for walks, adopting, and surrendering an animal to the shelter.
+						<br>
+						<br>
+						<img id="vp-shelt" src="website-images/virtual-pet-shelter-screenshot.jpg">
+					</article>
+				</div>
 				<br>
-				<article>
-					<img id="vp-amok" src="website-images/virtual-pets-run-amok-screenshot.jpg">
-					<br>
-					<a href="https://github.com/RainbowMoonbeams/virtual-pets-run-amok">Virtual Pets Run Amok</a>: interact with and care for multiple organic <em>and</em> robotic cats and dogs. These pets need lots of attention, including cleaning their gaces & litter box, taking the robotic <em>and</em> organic dogs for walks, feeding organic pets, maintaining robitic pets by oiling and recharging them. You can also adopt from the shelter, as well as surrender a robotic <em>or</em> organic cat or dog to the shelter.
-				</article>
+				<div class="fourthProjectClass">
+					<article id="fourthProject">
+						<br>
+						<a href="https://github.com/RainbowMoonbeams/virtual-pets-run-amok"><strong>Virtual Pets Run Amok</strong></a>: interact with and care for multiple organic <em>and</em> robotic cats and dogs. These pets need lots of attention, including cleaning individualdog cages & the communal cat litter box, taking the robotic <em>and</em> organic dogs for walks, feeding organic pets, maintaining robotic pets by oiling and recharging them. You can also adopt from the shelter, as well as surrender a robotic <em>or</em> organic cat or dog to the shelter.
+						<br>
+						<br>
+						<img id="vp-amok" src="website-images/virtual-pets-run-amok-screenshot.jpg">
+					</article>
+				</div>
 				<h2 id="skills">Skills</h2>
 				<ul>
 					<li>Java</li>
@@ -80,12 +101,12 @@
 				</ul>
 			</ul>
 		</section>
-		<img src="">
-	</main>
+		</main>
 	<footer>
-	<span><blockquote id="quote">"It is a gift to be alive - to see the sun and breathe there air, and there really isn't anything else."</blockquote>
-	<span id="copyright">&copy;2017 Meaghan Rea</span>
-	</footer>
-</div>
+		<span><blockquote id="quote">"It is a gift to be alive - to see the sun and breathe there air, and there really isn't anything else."</blockquote>
+			<br>
+			<span id="copyright">&copy;2017 Meaghan Rea</span>
+		</footer>
+	</div>
 </body>
 </html>
