@@ -20,13 +20,46 @@ nav li a {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Playfair Display', serif;
 }
-
+.top-things {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+}
+.top-things div #my-pic {
+	order: 1;
+	flex: auto;
+	align-self: auto;
+	min-width: 0;
+	min-height: auto;
+}
+.top-things div #opener {
+	order: 2;
+	flex: auto;
+	align-self: auto;
+	min-width: 0;
+	min-height: auto;
+}
+.top-things div #contact-me {
+	order: 3;
+	flex: auto;
+	align-self: auto;
+	min-width: 0;
+	min-height: auto;
+}
 
 #Meaghan-Rea-logo {
 	margin: 10px;
-	width: 15%;
-	height: 15%;
+	width: 200px;
 	border: 4px solid purple;
+}
+#opener {
+	text-align: center;
+}
+#contact-me {
+	text-align: right;
+	list-style-type: none;
 }
 
 /*#Meaghan-Rea-logo, #opener, #contact-me {
@@ -48,28 +81,38 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
     margin: auto;
  }
- #firstProject {
+ #firstProject, #thirdProject {
  	background-color: #F2DCF9;
- 	padding-top: 20px;
- 	padding-bottom: 20px;
+ 	padding-top: 40px;
+ 	padding-bottom: 40px;
  }
- #thirdProject {
- 	background-color: #F2DCF9;
- 	padding-top: 20px;
- 	padding-bottom: 20px;
+ #secondProject, #fourthProject {
+ 	padding-top: 40px;
+ 	padding-bottom: 40px;
  }
  #firstProject, #secondProject, #thirdProject, #fourthProject {
 
  }
-
- #personal-statement {
- 	background-color: #DBC2C2;
+ h3 {
+ 	text-align: center;
  }
- #ps {
+ #skills-list {
  	background-color: #F2DCF9;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ }
+
+#ps {
+ 	background-color: #F2DCF9;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
  }
 #quote, #copyright {
-	text-align: center;
+	padding: 40px;
+	
+}
+footer {
+	background-color: #B2A98E;
 }
 footer span {
 	text-align: center;
