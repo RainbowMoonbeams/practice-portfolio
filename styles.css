@@ -57,56 +57,93 @@ h1, h2, h3, h4, h5, h6 {
 #opener {
 	text-align: center;
 }
-#contact-me {
-	text-align: right;
-	list-style-type: none;
+nav ul li a {
+	text-decoration: none;
 }
+div li {
+	list-style-type: none;
+	text-decoration: none;
+}
+.phone a {
+    position: relative;
+    display: inline-block;
+}
+#phone-number {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+#phone a:hover span #phone-number {
+    visibility: visible;
+}
+.contact-me li img {
+	width: 30px;
+	height: 30px;
+}
+
 
 /*#Meaghan-Rea-logo, #opener, #contact-me {
 	display: flex;
 	justify-content: space-between;
 }*/
 #nav-links {
+	text-decoration: none;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	display: inline;
 }
- #personal-statement, #projects, #education, #skills {
-	color: black;
-}
+
 #fort-tell, #virt-pet, #vp-shelt, #vp-amok {
 	border: 2px solid purple;
 	margin: 10px;
 	display: block;
     margin: auto;
- }
- #firstProject, #thirdProject {
+}
+
+#firstProject, #thirdProject {
  	background-color: #F2DCF9;
  	padding-top: 40px;
  	padding-bottom: 40px;
- }
- #secondProject, #fourthProject {
+}
+#secondProject, #fourthProject {
  	padding-top: 40px;
  	padding-bottom: 40px;
- }
- #firstProject, #secondProject, #thirdProject, #fourthProject {
+}
+div article span p #ft-overview {
+	margin: 50px;
+}
 
- }
- h3 {
+h3 {
  	text-align: center;
- }
- #skills-list {
+}
+section #coding-mural {
+    display: block;
+    margin: auto;
+}
+#skills-list {
  	background-color: #F2DCF9;
  	padding-top: 20px;
  	padding-bottom: 20px;
- }
-
+}
 #ps {
  	background-color: #F2DCF9;
  	padding-top: 20px;
  	padding-bottom: 20px;
- }
+}
+#ps-words {
+ 	margin: 40px;
+}
 #quote, #copyright {
 	padding: 40px;
 	
