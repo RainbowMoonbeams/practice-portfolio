@@ -6,7 +6,7 @@ header {
 	justify-content: space-between;
 }
 body {
-	background-color: rgb(255, 248, 229);
+	background-color: white;
 	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 }
@@ -64,38 +64,11 @@ div li {
 	list-style-type: none;
 	text-decoration: none;
 }
-.phone a {
-    position: relative;
-    display: inline-block;
-}
-#phone-number {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: -5px;
-    right: 105%;
-}
-#phone a:hover span #phone-number {
-    visibility: visible;
-}
 .contact-me li img {
 	width: 30px;
 	height: 30px;
 }
-
-
-/*#Meaghan-Rea-logo, #opener, #contact-me {
-	display: flex;
-	justify-content: space-between;
-}*/
 #nav-links {
 	text-decoration: none;
 	list-style-type: none;
@@ -103,16 +76,40 @@ div li {
 	padding: 0;
 	display: inline;
 }
-
 #fort-tell, #virt-pet, #vp-shelt, #vp-amok {
 	border: 2px solid purple;
-	margin: 10px;
+	margin-left: 30px;
+	margin-right: 20px;
 	display: block;
-    margin: auto;
+}
+#ft-overview {
+	margin-left: 40px;
+}
+#vp-overview {
+	margin-left: 40px;	
+}
+#vps-overview {
+	margin-left: 40px;	
+}
+#vpra-overview {
+	margin-left: 40px;	
+}
+.ps-class {
+	background-color: #F2DCF9;
+}
+.ss-class {
+	background-color: #F2DCF9;
+}
+#ps {
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+}
+#ps-words {
+ 	margin: 40px;
 }
 
 #firstProject, #thirdProject {
- 	background-color: #F2DCF9;
+ 	background-color: #F9F3FF;
  	padding-top: 40px;
  	padding-bottom: 40px;
 }
@@ -127,23 +124,32 @@ div article span p #ft-overview {
 h3 {
  	text-align: center;
 }
-section #coding-mural {
-    display: block;
-    margin: auto;
+#secondProject-list {
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 100px 2;
+}
+#thirdProject-list {
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 100px 2;
+}
+#fourthProject-list {
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 100px 2;
 }
 #skills-list {
- 	background-color: #F2DCF9;
+ 	
  	padding-top: 20px;
  	padding-bottom: 20px;
 }
-#ps {
- 	background-color: #F2DCF9;
- 	padding-top: 20px;
- 	padding-bottom: 20px;
+#skills-list {
+    -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 3; /* Firefox */
+    columns: 100px 3;
 }
-#ps-words {
- 	margin: 40px;
-}
+
 #quote, #copyright {
 	padding: 40px;
 	
